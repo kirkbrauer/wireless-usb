@@ -1,0 +1,21 @@
+{
+  "name": "wireless-usb",
+  "version": "1.0.0",
+  "description": "A quick way to wirelessly stream USB over TCP with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirk Brauer",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "inquirer": "^3.2.3",
+    "ip": "^1.1.5",
+    "metastream": "^1.0.11",
+    "node-hid": "^0.5.7",
+    "shortid": "^2.2.8",
+    "validate-ip-node": "^1.0.6"
+  }
+}
